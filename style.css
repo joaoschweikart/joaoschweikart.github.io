@@ -29,7 +29,7 @@ html{
     font-size: 20px;
     color: white;
     background-color: black;
-    width: 340px;
+    max-width: 340px;
     height: 100%;
     position: fixed;
 }
@@ -37,7 +37,7 @@ html{
 
 .perfil{
     border-radius: 300px;
-    width: 270px;
+    max-width: 270px;
 }
 
 input{
@@ -73,10 +73,6 @@ a:hover{
 
 .main{
     padding-left: 320px;
-}
-
-.text{
-    width: 900px;
 }
 
 .color{
@@ -115,15 +111,14 @@ input[type="checkbox"]:checked ~ .main{
 }
 
 .lista-linguagens{
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
     font-size: 35px;
 }
 
 .linguagens{
     padding-right: 12pt;
     padding-left: 12pt;
-    width: 60px;
+    max-width: 60px;
     color: yellowgreen;
 }
 
@@ -137,4 +132,7 @@ h2{
 
 h3{
     font-size: 15pt;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
 }
