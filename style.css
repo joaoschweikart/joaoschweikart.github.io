@@ -26,7 +26,7 @@ html{
     flex-direction: column;
     justify-content: center;
     padding: 0px 30px 0px 30px;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     background-color: black;
     width: 340px;
@@ -76,7 +76,11 @@ a:hover{
 }
 
 .text{
-    width: 900px
+    width: 900px;
+}
+
+.color{
+    color: yellowgreen;
 }
 
 .apresentation, .school, .projects, .skill, .certified{
@@ -92,13 +96,13 @@ a:hover{
 .socials{
     display: inline-flex;
     background-color: black;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     color: grey;
     align-items: center;
     justify-content: center;
     margin: 10px;
-    font-size: 50px;
+    font-size: 30px;
     border-radius: 50px;
 }
 
@@ -110,14 +114,27 @@ input[type="checkbox"]:checked ~ .main{
     text-decoration: underline;
 }
 
+.lista-linguagens{
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+}
+
+.linguagens{
+    padding-right: 12pt;
+    padding-left: 12pt;
+    width: 60px;
+    color: yellowgreen;
+}
+
 h1{
-    font-size: 35pt;
+    font-size: 28pt;
 }
 
 h2{
-    font-size:22pt;
+    font-size: 18pt;
 }
 
 h3{
-    font-size: 20pt;
+    font-size: 15pt;
 }
