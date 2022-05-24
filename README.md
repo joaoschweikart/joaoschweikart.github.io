@@ -1,2 +1,2 @@
 # joaoschweikart.github.io
- tudo sobre mim
+ Meu site, tudo sobre mim e minha experiência
