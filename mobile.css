@@ -6,8 +6,8 @@
     padding-left: 0px;
 }
 
-.apresentation, .projects, .certified, .school, .skill{
+.apresentation, .projects, .certified, .school, .skill, .interact{
     max-width: 1100px;
     min-width: 100px;
-    padding: 10px 10px 10px 10px;
+    padding: 30px 30px 30px 30px;
 }
