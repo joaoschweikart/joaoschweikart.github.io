@@ -11,3 +11,7 @@
     min-width: 100px;
     padding: 30px 30px 30px 30px;
 }
+
+.interact-right{
+    display: none;
+}
