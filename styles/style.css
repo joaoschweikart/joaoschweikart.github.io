@@ -1,14 +1,9 @@
-@font-face {
-    font-family: Font;
-    src: url(/BASKE9.ttf);
-}
-
 *{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: Font;
 }
 
 body{
@@ -26,7 +21,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-    background: greenyellow;
+    background: #4B0082;
 }
 
 html{
@@ -40,7 +35,7 @@ html{
     padding: 0px 30px 0px 30px;
     font-size: 18px;
     color: white;
-    background-color: greenyellow;
+    background-color: #4B0082;
     max-width: 300px;
     height: 100%;
     position: fixed;
@@ -70,7 +65,7 @@ li{
 }
 
 .linkmenu{
-    color: black;
+    color: white;
     margin-top: 20pt;
 }
 
@@ -79,7 +74,7 @@ a{
 }
 
 a:hover{
-    color: white;
+    color: black;
 }
 
 .main{
@@ -87,11 +82,11 @@ a:hover{
 }
 
 .color{
-    color: yellowgreen;
+    color: #4B0082;
 }
 
-.apresentation, .projects, .certified{
-    height: 95vh;
+.apresentation, .professional, .certified{
+    height: 99vh;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -103,7 +98,7 @@ a:hover{
 }
 
 .school, .skill{
-    height: 95vh;
+    height: 99vh;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -115,7 +110,7 @@ a:hover{
 }
 
 .interact{
-    height: 95vh;
+    height: 99vh;
     display: flex;
     flex-direction: row;
     align-items:center;
@@ -143,17 +138,17 @@ a:hover{
     background-color: black;
     max-width: 20px;
     max-height: 40px;
-    color: greenyellow;
+    color: white;
     align-items: center;
     justify-content: center;
     margin: 10px;
-    font-size: 30px;
+    font-size: 27px;
     border-radius: 30px;
     padding: 22px;
 }
 
 .socials:hover{
-    color: white;
+    color: #4B0082;
 }
 
 input[type="checkbox"]:checked ~ .main{
@@ -163,7 +158,6 @@ input[type="checkbox"]:checked ~ .main{
 .title{
     max-width: 600px;
     min-width: 100px;
-    text-decoration: underline;
     text-align: center;
 }
 
@@ -184,7 +178,7 @@ input[type="checkbox"]:checked ~ .main{
 .linguagens{
     padding: 15px;
     max-width: 60px;
-    color: yellowgreen;
+    color: #4B0082;
 }
 
 .button{
@@ -192,7 +186,7 @@ input[type="checkbox"]:checked ~ .main{
     font-size: 25pt;
     display: flex;
     justify-content: center;
-    background-color: greenyellow;
+    background-color: #4B0082;
     align-items: center;
     width: 170px;
     height: 60px;
@@ -209,6 +203,7 @@ h1{
 
 h2{
     font-size: 14pt;
+    max-width: 700px;
 }
 
 h3{
